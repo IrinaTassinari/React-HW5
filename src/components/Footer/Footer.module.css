@@ -1,0 +1,22 @@
+.icons_wrapper{
+    padding-bottom: 195px;
+}
+.icons_frame{
+    margin: 0 auto;
+    border: 3px solid #1ed760;
+    border-radius: 65px;
+    max-width: 446px;
+    width: 100%;
+    padding: clamp(10px 15px, 4vw, 36px 41px); 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+.icon{
+    cursor: pointer;
+    max-width: 97px;
+    width: 100%;
+    height: auto;
+}

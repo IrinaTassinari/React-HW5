@@ -1,0 +1,31 @@
+.text_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: clamp(12px, 4vw, 32px);
+    padding-bottom: clamp(10px, 4vw, 31px);
+    max-width: 100%;
+    text-align: center;
+}
+.main_h1{
+    font-weight: 700;
+    font-size: clamp(28px, 6vw, 64px);
+    color: #1ed760;
+}
+.h4_together{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main_h4{
+    font-weight: 700;
+    font-size: clamp(16px, 4vw, 32px);
+    color: #1ed760;
+}
+
+/* clamp(MIN, FLUID, MAX):
+MIN — минимальный размер на телефонах
+FLUID — динамичный рост по ширине экрана
+MAX — размер по макету (на больших мониторах) */
