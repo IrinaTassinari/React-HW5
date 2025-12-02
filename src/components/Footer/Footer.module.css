@@ -7,8 +7,8 @@
     border-radius: 65px;
     max-width: 446px;
     width: 100%;
-    padding: clamp(10px 15px, 4vw, 36px 41px); 
-
+    /* padding: clamp(10px 15px, 4vw, 36px 41px);  */
+    padding: 36px 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,17 +16,7 @@
 }
 .icon{
     cursor: pointer;
-    /* max-width: 97px; */
-    /* height: auto; */
-    /* height: 97px; */
-
-
-  
-
-   width: 97px;
-  height: 97px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain; /* важное — сохраняет пропорции и центрирует */
-  display: inline-block;
-}
+    max-width: 97px; 
+    height: auto;
+   
+ } 
