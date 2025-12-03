@@ -18,5 +18,8 @@
     cursor: pointer;
     max-width: 97px; 
     height: auto;
-   
+    transition: 0.3s ease;
  } 
+ .icon:hover {
+  transform: translateY(-10px);
+}
